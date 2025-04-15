@@ -1,15 +1,15 @@
 @font-face {
   font-family: poppins;
-  src: url(/Poppins-Regular.ttf);
+  src: url("C:\Users\Latika\Desktop\my works\theme toggle\Poppins-Regular.ttf");
 }
 
-@font-face {
+@font-face { 
   font-family: comic;
-  src: url(/Super\ Comic.ttf);
+  src: url("C:\Users\Latika\Desktop\my works\theme toggle\Super Comic.ttf");
 }
 @font-face {
   font-family: khiara;
-  src: url(/©\ 2020\ NUGS\ Project\ Khiara\ Script.ttf);
+  src: url("C:\Users\Latika\Desktop\my works\theme toggle\© 2020 NUGS Project Khiara Script.ttf");
 }
 * {
   margin: 0;
