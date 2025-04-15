@@ -1,0 +1,365 @@
+@font-face {
+  font-family: poppins;
+  src: url(/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: comic;
+  src: url(/Super\ Comic.ttf);
+}
+@font-face {
+  font-family: khiara;
+  src: url(/©\ 2020\ NUGS\ Project\ Khiara\ Script.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: uppercase;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.theme {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.light {
+  width: 100%;
+  height: 148vh;
+  background-color: white;
+  color: #070707;
+}
+
+.dark {
+  width: 100%;
+  height: 148vh;
+  background-color: #070707;
+  color: white;
+}
+
+nav {
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .lft {
+  width: 10%;
+  font-family: comic;
+  font-size: 1.5vw;
+  padding: 0vw 2vw;
+}
+
+nav .rgt {
+  width: 87%;
+  height: 6vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: poppins;
+  border-radius: 25px 0px 0px 25px;
+  padding: 0vw 3vw;
+}
+
+.dark nav .rgt {
+  background-color: white;
+  color: #070707;
+}
+
+.light nav .rgt {
+  background-color: #070707;
+  color: white;
+}
+
+.rgt .pages {
+  display: flex;
+  gap: 5vw;
+  width: 70%;
+  text-transform: uppercase;
+  font-size: 0.9vw;
+}
+
+.rgt .icon {
+  display: flex;
+  padding: 0.5vw;
+  border-radius: 8px;
+}
+
+.dark .rgt .icon {
+  background-color: #070707;
+  color: white;
+}
+
+.light .rgt .icon {
+  background-color: white;
+  color: #070707;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0vw 2vw;
+  padding-top: 2.3vw;
+  font-family: poppins;
+  font-size: 0.8vw;
+  text-transform: uppercase;
+}
+
+.dark .details h4 {
+  font-weight: 100;
+  color: #dbd8d8;
+}
+
+.light .details h4 {
+  font-weight: 100;
+  color: #848383;
+}
+
+main h1 {
+  font-family: comic;
+  text-align: center;
+  font-size: 11vw;
+}
+
+main h2 {
+  font-family: Khiara;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  margin-bottom: 5vw;
+  font-size: 8vw;
+  font-weight: 600;
+  color: #EF7CA5;
+  text-transform: capitalize;
+}
+
+.pallete {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0vw 2vw;
+}
+
+.pallete .lft {
+  width: 20%;
+  display: flex;
+  gap: 2vw;
+}
+
+.pallete .lft i {
+  font-size: 2vw;
+  font-weight: 100;
+}
+
+.pallete h1 {
+  font-size: 1vw;
+  letter-spacing: 0.5vw;
+}
+
+.pallete h4 {
+  font-size: 1.6vw;
+  font-weight: 400;
+}
+
+.pallete h3 {
+  font-weight: 100;
+  font-size: 0.7vw;
+  font-family: poppins;
+  letter-spacing: 0.9vw;
+}
+
+.dark .pallete h3 {
+  color: #dbd8d8;
+}
+
+.light .pallete h3 {
+  color: #848383;
+}
+
+.pallete .rgt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 17%;
+}
+
+.pallete .rgt i {
+  padding: 0.5vw;
+  font-size: 1.2vw;
+  border-radius: 50%;
+}
+
+.dark .pallete .rgt i {
+  border: 1px solid white;
+}
+
+.light .pallete .rgt i {
+  border: 1px solid #070707;
+}
+
+.pallete .rgt .color-pallete {
+  display: flex;
+  align-items: center;
+  gap: 0.3vw;
+}
+
+.color-pallete .color {
+  height: 2.3vw;
+  width: 2.3vw;
+  border-radius: 5px;
+  background-color: pink;
+
+}
+
+.main-section {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  padding: 0 2vw;
+}
+
+.main-section .content {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 20vw;
+}
+
+.content .img {
+  width: 100%;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.img .box1 {
+  height: 35vh;
+  width: 100%;
+  background-color: #EF7CA5;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.box1 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: left top;
+}
+
+.box2 {
+  height: 45vh;
+  width: 100%;
+  background-color: #EF7CA5;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.box2 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: left center;
+}
+
+.building {
+  height: 85vh;
+  position: absolute;
+  margin-bottom: 2.2vw;
+  margin-left: 2.9vw;
+}
+
+.main-section .about {
+  width: 50%;
+  height: 100%;
+  font-family: poppins;
+  position: relative;
+}
+
+.about h4 {
+  margin-top: 3vw;
+}
+
+.about p {
+  font-size: 1vw;
+  text-align: justify;
+}
+
+.about button {
+  font-size: 1vw;
+  width: 60%;
+  background-color: #070707;
+  color: white;
+  padding: 0.6vw;
+  border-radius: 50px;
+  border: 1px solid white;
+  text-align: center;
+  margin-top: 2vw;
+}
+
+.dark button:active {
+  background-color: white;
+  color: #000;
+}
+
+.light button:active {
+  background-color: #070707;
+  color: white;
+}
+
+.about .food-truck {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.4vw;
+}
+
+.food-truck .truck1 {
+  background-color: #EF7CA5;
+  height: 45vh;
+  width: 65%;
+  margin-top: 3.7vw;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.truck1 img {
+  height: 100%;
+  width: 100%;
+  scale: 1.5;
+  object-fit: cover;
+  object-position: 59px -100px;
+}
+
+.food-truck .truck2 {
+  background-color: #EF7CA5;
+  height: 45vh;
+  width: 35%;
+  margin-top: 3.7vw;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.truck2 img {
+  height: 100%;
+  width: 100%;
+  scale: 2.3;
+  object-fit: cover;
+  object-position: -80px 7.4px;
+}
