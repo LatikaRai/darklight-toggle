@@ -5,11 +5,11 @@
 
 @font-face { 
   font-family: comic;
-  src: url("Super Comic.ttf");
+  src: url("Super-Comic.ttf");
 }
 @font-face {
   font-family: khiara;
-  src: url("© 2020 NUGS Project Khiara Script.ttf");
+  src: url("Khiara-Script.ttf");
 }
 * {
   margin: 0;
